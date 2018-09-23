@@ -46,7 +46,7 @@ function stag(rvc)
 end
 
 # overall parameter scan
-function big_conv_plot(A::AbstractMatrix, tol::Float64, maxiter=Int)
+function big_conv_plot(A::AbstractMatrix, tol::Float64, maxiter::Int)
 	# solver/plot setup
 	n = size(A,1)
 	b = ones(n)
